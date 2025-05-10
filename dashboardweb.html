@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Menu Utama</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in-out both;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-blue-50 min-h-screen">
+
+  <div class="p-6">
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl text-blue-700 font-bold fade-in">Menu Utama</h1>
+      <p class="text-blue-500 mt-2 fade-in">Selamat datang di dashboard pribadimu</p>
+    </header>
+
+    <!-- Menu Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 fade-in">
+      <a href="profilutama.html" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h2 class="text-xl text-blue-700 font-semibold mb-2">Profil</h2>
+        <p class="text-blue-500">Lihat informasi pribadi lengkap.</p>
+      </a>
+
+      <a href="contactweb.html" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h2 class="text-xl text-blue-700 font-semibold mb-2">Kontak</h2>
+        <p class="text-blue-500">Hubungi saya langsung dari sini.</p>
+      </a>
+
+      <a href="biodataweb.html" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h2 class="text-xl text-blue-700 font-semibold mb-2">Biodata</h2>
+        <p class="text-blue-500">Data lengkap seperti tempat lahir dan alamat.</p>
+      </a>
+
+      <a href="loginweb.html" class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h2 class="text-xl text-blue-700 font-semibold mb-2">Keluar</h2>
+        <p class="text-blue-500">Keluar dari halaman dashboard.</p>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

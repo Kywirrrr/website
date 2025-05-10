@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak Saya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in-out both;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-blue-50 min-h-screen">
+
+  <div class="max-w-xl mx-auto py-12 px-6 fade-in">
+    <h1 class="text-4xl font-bold text-center text-blue-700 mb-8">Kontak Saya</h1>
+
+    <div class="bg-white shadow-lg rounded-xl p-6 space-y-4">
+      <div class="flex items-center justify-between">
+        <span class="font-semibold text-blue-600">WhatsApp</span>
+        <a href="https://wa.me/6281317149440" target="_blank" class="text-blue-800 hover:underline">+62 813-1714-9440</a>
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="font-semibold text-blue-600">Email</span>
+        <a href="mailto:rizkyardiansyahputra07@email.com" class="text-blue-800 hover:underline">rizkyardiansyahputra07@gmail.com</a>
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="font-semibold text-blue-600">Instagram</span>
+        <a href="https://instagram.com/rydnsy._______" target="_blank" class="text-blue-800 hover:underline">@rydnsy._______</a>
+      </div>
+      <div class="flex items-center justify-between">
+        <span class="font-semibold text-blue-600">Alamat</span>
+        <span class="text-blue-800 text-right">Babelan, Bekasi Utara</span>
+      </div>
+    </div>
+
+    <!-- Tombol Kembali -->
+    <div class="text-center mt-8">
+      <a href="dashboardweb.html" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">
+        ← Kembali ke Menu Utama
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
